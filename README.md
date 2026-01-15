@@ -1,20 +1,55 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Contact List Generator
 
-# Run and deploy your AI Studio app
+This project is a React application built with Vite.
 
-This contains everything you need to run your app locally.
+## Project Setup
 
-View your app in AI Studio: https://ai.studio/apps/drive/1l7AfOj9tu7KjulQsZrT7KsGgf6gqU91E
+### Prerequisites
+- Node.js (version 18 or higher recommended)
+- npm
 
-## Run Locally
+### Installation
 
-**Prerequisites:**  Node.js
+1.  Clone the repository:
+    ```bash
+    git clone <repository-url>
+    ```
+2.  Navigate to the project directory:
+    ```bash
+    cd ContactListGenerater
+    ```
+3.  Install dependencies:
+    ```bash
+    # If you are on Windows and encounter execution policy errors, use cmd /c npm install
+    npm install
+    ```
 
+## Development
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+To start the development server:
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
+
+## Building for Production
+
+To create a production build:
+
+```bash
+npm run build
+```
+
+The build artifacts will be stored in the `dist/` directory.
+
+## Deployment
+
+This project is configured to automatically deploy to GitHub Pages using GitHub Actions.
+
+1.  Push changes to the `main` branch.
+2.  The "Deploy to GitHub Pages" action will trigger automatically.
+3.  Once completed, the site will be available at your GitHub Pages URL.
+
+**Note:** Ensure that in your GitHub repository settings under **Pages**, the source is set to "GitHub Actions".
