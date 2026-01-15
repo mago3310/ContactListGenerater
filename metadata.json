@@ -1,0 +1,5 @@
+{
+  "name": "Smart List Generator",
+  "description": "A professional tool for generating validated data lists with specific rules for marketing consent, phone numbers, IDs, and cryptographic hashes.",
+  "requestFramePermissions": []
+}
